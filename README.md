@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f42deff1-b596-45d1-8b2d-41f3559cbf97)# Biostatistics Data Analysis Shiny App
+# Biostatistics Data Analysis Shiny App
 This is an R Shiny app designed for basic biostatistics data analysis. It allows users to upload a dataset, perform summary statistics, and visualize data using scatter plots, histograms, and boxplots. The app is user-friendly and includes error handling for invalid inputs.
 
 ## Features
