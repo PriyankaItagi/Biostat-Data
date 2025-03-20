@@ -36,8 +36,8 @@ This is an R Shiny app designed for basic biostatistics data analysis. It allows
 
 ## How to Run the App
 1. Clone this repository to your local machine - 
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+```bash
+git clone https://github.com/your-username/your-repo-name.git
 2. Open the app.R file in RStudio or your preferred R environment.
 3. Install the required R packages if you don't already have them -
 ```R
