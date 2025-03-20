@@ -1,4 +1,4 @@
-# Biostatistics Data Analysis Shiny App
+![image](https://github.com/user-attachments/assets/f42deff1-b596-45d1-8b2d-41f3559cbf97)# Biostatistics Data Analysis Shiny App
 This is an R Shiny app designed for basic biostatistics data analysis. It allows users to upload a dataset, perform summary statistics, and visualize data using scatter plots, histograms, and boxplots. The app is user-friendly and includes error handling for invalid inputs.
 
 ## Features
@@ -13,13 +13,12 @@ This is an R Shiny app designed for basic biostatistics data analysis. It allows
 1. Upload a Dataset:
    - The app accepts CSV files. Ensure your dataset is in the correct format.
    - Example dataset:
- 
-     Age, Weight, Height, Gender
-     25, 70, 175, Male
-     30, 80,  180, Female
-     35, 85, 182, Male
-     40, 90, 185, Female
-     45, 95, 188, Male
+ Age	Weight	Height 	Gender 
+  25	  70      175	    Male
+  30	  80	    180	   Female
+  35	  90	    182	    Male
+  40	  95	    185	   Female
+  45	  85	    188	    Male
 
 2. Select Variables -
    - Choose variables for summary statistics, scatter plots, histograms, and boxplots.
@@ -39,6 +38,7 @@ This is an R Shiny app designed for basic biostatistics data analysis. It allows
 2. Open the app.R file in RStudio or your preferred R environment.
 
 3. Install the required R packages if you don't already have them:
+
 install.packages("shiny")
 install.packages("ggplot2")
 install.packages("dplyr")
@@ -46,5 +46,6 @@ install.packages("dplyr")
 4. Run the app:
 In RStudio, click the Run App button.
 Alternatively, run the following command in the R console:
+
 shiny::runApp("path/to/your/app.R")
 
