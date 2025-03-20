@@ -14,12 +14,12 @@ This is an R Shiny app designed for basic biostatistics data analysis. It allows
    - The app accepts CSV files. Ensure your dataset is in the correct format.
    - Example dataset:
  
-     Age,Weight,Height,Gender
-     25,70,175,Male
-     30,80,180,Female
-     35,85,182,Male
-     40,90,185,Female
-     45,95,188,Male
+     Age, Weight, Height, Gender
+     25, 70, 175, Male
+     30, 80,  180, Female
+     35, 85, 182, Male
+     40, 90, 185, Female
+     45, 95, 188, Male
 
 2. Select Variables -
    - Choose variables for summary statistics, scatter plots, histograms, and boxplots.
@@ -34,4 +34,17 @@ This is an R Shiny app designed for basic biostatistics data analysis. It allows
 
 ## How to Run the App
 1. Clone this repository to your local machine - 
-   git clone https://github.com/your-username/R-Shiny-App.git
+   git clone https://github.com/PriyankaItagi/R-Shiny-App.git
+
+2. Open the app.R file in RStudio or your preferred R environment.
+
+3. Install the required R packages if you don't already have them:
+install.packages("shiny")
+install.packages("ggplot2")
+install.packages("dplyr")
+
+4. Run the app:
+In RStudio, click the Run App button.
+Alternatively, run the following command in the R console:
+shiny::runApp("path/to/your/app.R")
+
